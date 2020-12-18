@@ -1,3 +1,0 @@
-- import_playbook: pulpcore/01-boxes.yaml
-- import_playbook: pulpcore/02-install.yaml
-- import_playbook: pulpcore/03-tests.yaml
