@@ -1,6 +1,6 @@
 # vim: ft=sh:sw=2:et
 
-ORGANIZATION="Test Organization"
+ORGANIZATION="Test Organization${ORG_SUFFIX}"
 PRODUCT="Test Product"
 CONTAINER_REPOSITORY="foremanbusybox"
 FILE_REPOSITORY="file repo"
