@@ -17,6 +17,7 @@ server_box:
         - "--enable-foreman-plugin-bootdisk"
         - "--enable-foreman-plugin-discovery"
         - "--enable-foreman-plugin-hooks"
+        - "{{ '--enable-foreman-plugin-puppet' if pipeline_version == 'nightly' or pipeline_version is version('3.0', '>=') else '' }}"
         - "--enable-foreman-plugin-remote-execution"
         - "--enable-foreman-plugin-templates"
         - "--enable-foreman-proxy-plugin-ansible"

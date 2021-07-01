@@ -11,7 +11,6 @@
     bats_tests:
       - "fb-verify-packages.bats"
       - "fb-test-foreman.bats"
-      - "fb-test-puppet.bats"
     bats_teardown:
       - "fb-finish.bats"
   roles:
